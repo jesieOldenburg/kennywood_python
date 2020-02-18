@@ -56,6 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 # This is new
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -70,8 +71,8 @@ REST_FRAMEWORK = {
 
 # This is new
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:8080',
-    'http://127.0.0.1:8080'
+    'http://localhost:8000',
+    'http://127.0.0.1:8000',
 )
 
 ROOT_URLCONF = 'kennywood.urls'
