@@ -1,1 +1,1 @@
-from parkareas import ParkAreas
+from .parkarea import ParkAreas

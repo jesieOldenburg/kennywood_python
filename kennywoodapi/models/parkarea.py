@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class ParkArea(models.Model):
     name = models.CharField(max_length=50)
     theme = models.CharField(max_length=50)
